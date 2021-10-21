@@ -53,7 +53,6 @@ header .logo {
     box-sizing: content-box;
     flex-shrink: 1;
     height: 80px;
-    margin-right: 1rem;
     padding: 0 0 0 1rem;
     width: 70px;
 }
@@ -63,15 +62,16 @@ a.log{
     background-size: contain;
     border: none;
     display: block;
-    height: 80%;
+    height: 70%;
     padding: 0px;
     text-indent: -1000px;
-    width: 100%;
+    width: 80%;
     border-width: initial;
     border-style: none;
     border-color: initial;
     border-image: initial;
     margin-top: 0%;
+    margin-left: -40px;
     
 }
 header .header-group h1 {
@@ -95,28 +95,24 @@ h1, h2, h3, h4 {
     font-size:25px ; 
     font-family: 'Comic Sans MS', arial;
     display: block;
+    margin-top: -20px;
+    margin-left: -40px;
 }
 .field {
     display:flex;
-    position:realtive;
+    position:relative;
     margin: auto;
-    width:50%;
+    width: 50%;
     flex-direction:row;
-    box-shadow:
-     1px 1px 0 rgb(0, 11, 172),
-     2px 2px 0 rgb(0, 11, 172),
-     3px 3px 0 rgb(0, 11, 172),
-     4px 4px 0 rgb(0, 11, 172),
-     5px 5px 0 rgb(0, 11, 172),
-     6px 6px 0 rgb(0, 11, 172),
-     7px 7px 0 rgb(0, 11, 172)
-    ;
+    margin-left: 30px;
+    
 }
   
 .field>input[type=text],
 .field>button {
     display:block;
     font:1.2em 'Montserrat Alternates';
+    border-radius: 100px;
 }
   
 .field>input[type=text] {
@@ -138,4 +134,22 @@ h1, h2, h3, h4 {
     overflow: hidden;
     padding-bottom: 3.2rem;
     position: relative;
+}
+
+.main{
+    display: grid;
+
+}
+.search-filter{
+    display: grid;
+    justify-content: start;
+    width: 300px;
+    height: 200px;
+    
+
+}
+.productos{
+    display: grid;
+    justify-content: end;
+    width: 100px;
 }
